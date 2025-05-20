@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5</title>
+</head>
+<style>
+    body {
+        width: 100%;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    body section {
+        max-width: 1000px;
+        width: 50%;
+        height: 50%;
+        box-shadow: rgba(41, 40, 40, 0.4) 1px 1px 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    section div {
+        border: 3px solid rgb(47, 44, 44);
+        border-style: dotted;
+        text-align: center;
+        padding: 20px;
+        transition: 300ms ease-in-out;
+    }
+    section div:hover {
+        border: 3px solid greenyellow;
+        border-style: dotted;
+    }
+</style>
+<body>
+    <section>
+        <img src="https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg" alt="Profile picture">
+        <div>
+            <h2>Title</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam quo maiores natus ipsam veniam quia officiis adipisci iste neque alias, ex eum, ut, quidem eveniet consequatur iusto exercitationem ea quaerat.</p>
+        </div>
+    </section>
+</body>
+</html>
