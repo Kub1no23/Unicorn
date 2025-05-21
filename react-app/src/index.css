@@ -1,0 +1,15 @@
+.list-category {
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: #2a2828;
+    text-align: center;
+    border-bottom: 3px black dashed;
+}
+
+.list-items {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}

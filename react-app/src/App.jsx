@@ -1,6 +1,9 @@
 import Header from './header.jsx'
 import Footer from './footer.jsx'
-import Food from './food.jsx'
+import List from './list.jsx'
+import Comment from './comment.jsx'
+import ColorPicker from './colorPicker.jsx'
+import Counter from './count.jsx'
 
 function App() {
     const fruits = [
@@ -32,8 +35,12 @@ function App() {
     return (
         <>
             <Header></Header>
-            <Food itemList={fruits} category='fruits'></Food>
-            <Food itemList={cars} category='cars'></Food>
+            <Counter></Counter>
+            <List itemList={fruits} category='fruits'></List>
+            <List itemList={cars} category='cars'></List>
+            <List itemList={[]} category='Nothing'></List>
+            <ColorPicker></ColorPicker>
+            <Comment initialText='Why did you pick this color?'></Comment>
             <Footer></Footer>
         </>
     );
