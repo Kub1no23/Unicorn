@@ -15,11 +15,25 @@ function App() {
         { id: 9, name: "Watermelon", calories: 85 },
         { id: 10, name: "Peach", calories: 59 }
     ];
+    const cars = [
+        { id: 1, name: "Toyota Corolla" },
+        { id: 2, name: "Honda Civic" },
+        { id: 3, name: "Ford Mustang" },
+        { id: 4, name: "Chevrolet Camaro" },
+        { id: 5, name: "Tesla Model 3" },
+        { id: 6, name: "BMW 3 Series" },
+        { id: 7, name: "Audi A4" },
+        { id: 8, name: "Mercedes-Benz C-Class" },
+        { id: 9, name: "Volkswagen Golf" },
+        { id: 10, name: "Subaru Impreza" }
+    ];
+
 
     return (
         <>
             <Header></Header>
-            <Food itemList={fruits}></Food>
+            <Food itemList={fruits} category='fruits'></Food>
+            <Food itemList={cars} category='cars'></Food>
             <Footer></Footer>
         </>
     );

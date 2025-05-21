@@ -6,7 +6,10 @@ function Food(props) {
     });
 
     return (
-        <ul>{listItems}</ul>
+        <>
+            <h2>{props.category}</h2>
+            <ul>{listItems}</ul>
+        </>
     );
 }
 
